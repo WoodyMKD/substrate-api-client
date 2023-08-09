@@ -11,11 +11,11 @@ hex = "0.4"
 serde_json = "1.0"
 
 # Substrate dependencies
-sp-core = { version = "4.1.0-dev", default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "master" }
-sp-keystore = { version = "0.10.0-dev", git = "https://github.com/paritytech/substrate.git", branch = "master" }
-sc-keystore = { version = "4.0.0-dev", git = "https://github.com/paritytech/substrate.git", branch = "master" }
-sp-keyring = { version = "4.0.0-dev", git = "https://github.com/paritytech/substrate.git", branch = "master" }
-sp-application-crypto = { version = "4.0.0-dev", git = "https://github.com/paritytech/substrate.git", branch = "master" }
+sp-core = { version = "4.1.0-dev", default-features = false, git = "https://github.com/paritytech/substrate.git", rev = "66ff3a566e6ee7d85f30fc11d45047bd41854b9e" }
+sp-keystore = { version = "0.10.0-dev", git = "https://github.com/paritytech/substrate.git", rev = "66ff3a566e6ee7d85f30fc11d45047bd41854b9e" }
+sc-keystore = { version = "4.0.0-dev", git = "https://github.com/paritytech/substrate.git", rev = "66ff3a566e6ee7d85f30fc11d45047bd41854b9e" }
+sp-keyring = { version = "4.0.0-dev", git = "https://github.com/paritytech/substrate.git", rev = "66ff3a566e6ee7d85f30fc11d45047bd41854b9e" }
+sp-application-crypto = { version = "4.0.0-dev", git = "https://github.com/paritytech/substrate.git", rev = "66ff3a566e6ee7d85f30fc11d45047bd41854b9e" }
 
 [dev-dependencies]
 tempfile = "3.2.0"
