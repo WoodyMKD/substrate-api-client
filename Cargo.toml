@@ -31,7 +31,7 @@ balances = { version = "4.0.0-dev", git = "https://github.com/paritytech/substra
 staking = { version = "4.0.0-dev", git = "https://github.com/paritytech/substrate.git", branch = "master", package = "pallet-staking", optional = true }
 system = { version = "4.0.0-dev", git = "https://github.com/paritytech/substrate.git", branch = "master", package = "frame-system", optional = true }
 transaction-payment = { version = "4.0.0-dev", default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "master", package = "pallet-transaction-payment", optional = true }
-sp-rpc = { version = "4.0.0-dev", default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "master", optional = true }
+sp-rpc = { version = "4.0.0-dev", default-features = false, git = "https://github.com/paritytech/substrate.git", rev = "66ff3a566e6ee7d85f30fc11d45047bd41854b9e", optional = true }
 sp-runtime = { version = "4.0.0-dev", default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "master" }
 support = { version = "4.0.0-dev", default-features = false, git = "https://github.com/paritytech/substrate.git", package = "frame-support", branch = "master" }
 sp-std = { version = "4.0.0-dev", default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "master" }
