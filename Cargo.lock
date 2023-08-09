@@ -2542,7 +2542,7 @@ dependencies = [
 
 [[package]]
 name = "sp-core"
-version = "4.1.0-dev"
+version = "5.0.0"
 source = "git+https://github.com/paritytech/substrate.git?branch=master#b9cafba3d0e7a5950ac78d81e4ab7f2074938666"
 dependencies = [
  "base58",
@@ -2719,7 +2719,7 @@ dependencies = [
 
 [[package]]
 name = "sp-maybe-compressed-blob"
-version = "4.1.0-dev"
+version = "5.0.0"
 source = "git+https://github.com/paritytech/substrate.git?branch=master#b9cafba3d0e7a5950ac78d81e4ab7f2074938666"
 dependencies = [
  "zstd",
