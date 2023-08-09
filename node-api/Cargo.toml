@@ -20,7 +20,7 @@ ac-primitives = { path = "../primitives" }
 # substrate deps
 frame-support = { version = "4.0.0-dev", git = "https://github.com/paritytech/substrate.git", rev = "66ff3a566e6ee7d85f30fc11d45047bd41854b9e" }
 frame-system = { version = "4.0.0-dev", git = "https://github.com/paritytech/substrate.git", rev = "66ff3a566e6ee7d85f30fc11d45047bd41854b9e" }
-sp-core = { version = "4.1.0", git = "https://github.com/paritytech/substrate.git", rev = "66ff3a566e6ee7d85f30fc11d45047bd41854b9e" }
+sp-core = { version = "5.0.0", git = "https://github.com/paritytech/substrate.git", rev = "66ff3a566e6ee7d85f30fc11d45047bd41854b9e" }
 sp-runtime = { version = "5.0.0", git = "https://github.com/paritytech/substrate.git", rev = "66ff3a566e6ee7d85f30fc11d45047bd41854b9e" }
 
 # new parity repo
