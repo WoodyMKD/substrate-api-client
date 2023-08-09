@@ -24,4 +24,4 @@ sp-core = { version = "4.1.0-dev", git = "https://github.com/paritytech/substrat
 sp-runtime = { version = "4.0.0-dev", git = "https://github.com/paritytech/substrate.git", branch = "master" }
 
 # new parity repo
-frame-metadata = { version = "14.0.0", git = "https://github.com/paritytech/frame-metadata.git", branch = "main", features = ["v14"] }
+frame-metadata = { version = "14.0.0", features = ["v14"] }
