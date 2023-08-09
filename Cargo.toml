@@ -26,10 +26,10 @@ codec = { package = 'parity-scale-codec', version = "2.0.0", default-features = 
 
 # Substrate dependencies
 sp-core = { version = "5.0.0", default-features = false, git = "https://github.com/paritytech/substrate.git", rev = "66ff3a566e6ee7d85f30fc11d45047bd41854b9e", features = ["full_crypto"] }
-sp-version = { version = "4.0.0-dev", git = "https://github.com/paritytech/substrate.git", branch = "master", package = "sp-version", optional = true }
-balances = { version = "4.0.0-dev", git = "https://github.com/paritytech/substrate.git", branch = "master", package = "pallet-balances", optional = true }
-staking = { version = "4.0.0-dev", git = "https://github.com/paritytech/substrate.git", branch = "master", package = "pallet-staking", optional = true }
-system = { version = "4.0.0-dev", git = "https://github.com/paritytech/substrate.git", branch = "master", package = "frame-system", optional = true }
+sp-version = { version = "4.0.0-dev", git = "https://github.com/paritytech/substrate.git", rev = "66ff3a566e6ee7d85f30fc11d45047bd41854b9e", package = "sp-version", optional = true }
+balances = { version = "4.0.0-dev", git = "https://github.com/paritytech/substrate.git", rev = "66ff3a566e6ee7d85f30fc11d45047bd41854b9e", package = "pallet-balances", optional = true }
+staking = { version = "4.0.0-dev", git = "https://github.com/paritytech/substrate.git", rev = "66ff3a566e6ee7d85f30fc11d45047bd41854b9e", package = "pallet-staking", optional = true }
+system = { version = "4.0.0-dev", git = "https://github.com/paritytech/substrate.git", rev = "66ff3a566e6ee7d85f30fc11d45047bd41854b9e", package = "frame-system", optional = true }
 transaction-payment = { version = "4.0.0-dev", default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "master", package = "pallet-transaction-payment", optional = true }
 sp-rpc = { version = "5.0.0", default-features = false, git = "https://github.com/paritytech/substrate.git", rev = "66ff3a566e6ee7d85f30fc11d45047bd41854b9e", optional = true }
 sp-runtime = { version = "5.0.0", default-features = false, git = "https://github.com/paritytech/substrate.git", rev = "66ff3a566e6ee7d85f30fc11d45047bd41854b9e" }
