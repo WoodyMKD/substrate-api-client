@@ -33,7 +33,7 @@ system = { version = "4.0.0-dev", git = "https://github.com/paritytech/substrate
 transaction-payment = { version = "4.0.0-dev", default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "master", package = "pallet-transaction-payment", optional = true }
 sp-rpc = { version = "5.0.0", default-features = false, git = "https://github.com/paritytech/substrate.git", rev = "66ff3a566e6ee7d85f30fc11d45047bd41854b9e", optional = true }
 sp-runtime = { version = "5.0.0", default-features = false, git = "https://github.com/paritytech/substrate.git", rev = "66ff3a566e6ee7d85f30fc11d45047bd41854b9e" }
-support = { version = "5.0.0", default-features = false, git = "https://github.com/paritytech/substrate.git", package = "frame-support", branch = "master" }
+support = { version = "5.0.0", default-features = false, git = "https://github.com/paritytech/substrate.git", package = "frame-support", rev = "66ff3a566e6ee7d85f30fc11d45047bd41854b9e" }
 sp-std = { version = "4.0.0-dev", default-features = false, git = "https://github.com/paritytech/substrate.git", rev = "66ff3a566e6ee7d85f30fc11d45047bd41854b9e" }
 # new parity repository
 metadata = { version = "14.0.0", default-features = false, git = "https://github.com/paritytech/frame-metadata.git", rev = '39fe3d8f279a37c7c414bf37db281a35e0ccd520', package = "frame-metadata", features = ["v13"] }
