@@ -38,7 +38,7 @@ sp-std = { version = "4.0.0-dev", default-features = false, git = "https://githu
 # new parity repository
 metadata = { version = "14.0.0", default-features = false, package = "frame-metadata", features = ["v13"] }
 # need to add this for the app_crypto macro
-sp-application-crypto = { version = "4.0.0-dev", default-features = false, git = "https://github.com/paritytech/substrate.git", branch = "master", features = ["full_crypto"] }
+sp-application-crypto = { version = "4.0.0-dev", default-features = false, features = ["full_crypto"] }
 
 # local deps
 ac-compose-macros = { path = "compose-macros", default-features = false }
